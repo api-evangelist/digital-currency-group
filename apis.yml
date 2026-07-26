@@ -1,8 +1,23 @@
 aid: digital-currency-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digital-currency-group.png
 name: Digital Currency Group
-description: 'Digital Currency Group is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Digital Currency Group (DCG) is a cryptocurrency and blockchain holding and venture
+  company founded in 2015 by Barry Silbert and headquartered in Stamford, Connecticut. DCG builds,
+  incubates, and invests in companies across the digital asset ecosystem, including subsidiaries such
+  as Grayscale Investments and Foundry. It operates as an investor and parent company rather than a
+  direct API provider; this network profile tracks DCG''s public web presence and corporate surface.
+  Surfaced as a portfolio company of bain-capital-ventures. Sector: fintech / digital assets.'
 url: https://raw.githubusercontent.com/api-evangelist/digital-currency-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Cryptocurrency
+- Blockchain
+- Digital Assets
+- Venture Capital
+- Investment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/digital-currency-group-domain-security.yml
 - type: Website
   url: https://dcg.co/
+- type: PrivacyPolicy
+  url: https://dcg.co/privacy
+- type: TermsOfService
+  url: https://dcg.co/terms
+- type: Support
+  url: https://dcg.co/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
